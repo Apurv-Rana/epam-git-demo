@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World I am Apurv!" );
+        Human h =new Human("ajay");
+		System.out.println(h.name);
+		
     }
 }
